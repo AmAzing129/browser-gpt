@@ -1,0 +1,27 @@
+{
+  "name": "browser-gpt",
+  "version": "0.0.2",
+  "description": "ChatGPT API in modern browser",
+  "repository": "AmAzing129/browser-gpt",
+  "license": "MIT",
+  "main": "./dist/index.cjs",
+  "source": "./src/index.ts",
+  "module": "./dist/index.module.js",
+  "type": "module",
+  "scripts": {
+    "build": "microbundle --no-sourcemap",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "chat",
+    "gpt",
+    "gpt-3",
+    "gpt3",
+    "gpt4"
+  ]
+}
